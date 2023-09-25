@@ -1,0 +1,7 @@
+_build
+.elixir_ls
+.elixir-tools
+deps
+test
+_build
+.env*

@@ -1,0 +1,3 @@
+%{
+  "echo": {:git, "https://github.com/adigitalmonk/echo.git", "70cbb36b90e21fb8eaee401730236ae9bf401cb6", [branch: "main"]},
+}
