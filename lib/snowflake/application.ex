@@ -11,7 +11,7 @@ defmodule Snowflake.Application do
 
     children = [
       {Snowflake.Server, [node_id: node_id]},
-      {Snowflake.Echo, port: port, pool_size: pool_size}
+      {Tango, port: port, pool_size: pool_size, handler: Snowflake.Handler}
     ]
 
     opts = [strategy: :one_for_one, name: Snowflake.Supervisor]
